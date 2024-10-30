@@ -1,5 +1,5 @@
 {% set name = "environments_utils" %}
-{% set version = "1.0.13" %}
+{% set version = "1.0.15" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/environments_utils-{{ version }}.tar.gz
-  sha256: ffb304f746d5da2c441d19cc6ab8a6a6df9c865afbc0a305c1d5d49d1d5c357c
+  sha256: 9807fbc323eefeb5766d091f40a3ca4ea652f69321d7e5976ff9edce40330d64
 
 build:
   noarch: python
